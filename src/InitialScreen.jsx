@@ -10,7 +10,7 @@ const InitialScreen = ({ onOpen }) => {
         
         <div className="gift-img-container floating">
           <img 
-            src="/regalo.png" 
+            src={`${import.meta.env.BASE_URL}regalo.png`} 
             alt="Regalo di Natale" 
             className="gift-img"
           />

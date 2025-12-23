@@ -108,7 +108,7 @@ const RevealScreen = () => {
 
         <div style={{ marginTop: '2rem', textAlign: 'center' }}>
           <a 
-            href="/prenotazione.pdf" 
+            href={`${import.meta.env.BASE_URL}prenotazione.pdf`} 
             download="Regalo_Viaggio_Colombia.pdf"
             className="btn-christmas party-btn"
             onMouseEnter={() => confetti({ particleCount: 30, spread: 60, origin: { y: 0.7 } })}
